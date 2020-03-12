@@ -1,0 +1,3 @@
+dev\fringe\app\Server.class
+dev\fringe\app\config\WebMvcConfig.class
+dev\fringe\app\controller\HomeController.class

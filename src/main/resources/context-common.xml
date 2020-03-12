@@ -16,5 +16,7 @@
         p:order="1" p:viewClass="org.springframework.web.servlet.view.JstlView"
         p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
         
+    <mvc:resources mapping="/static/**" location="classpath:/static/" />
+    
     <import resource="classpath:context-nexaro.xml"/>
 </beans>
