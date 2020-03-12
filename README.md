@@ -45,7 +45,7 @@ com.nexacro.xapi.data.DataSet@fb9c7aa
 ]
 ]
 
-MockHttpServletRequest:
+* MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /workflow/iom/iomListNexa
        Parameters = {}
@@ -53,28 +53,28 @@ MockHttpServletRequest:
              Body = <no character encoding set>
     Session Attrs = {}
 
-Handler:
+* Handler:
              Type = dev.fringe.app.controller.HomeController
            Method = dev.fringe.app.controller.HomeController#iomListNexa(HttpSession, PlatformData, Map)
 
-Async:
+* Async:
     Async started = false
      Async result = null
 
-Resolved Exception:
+* Resolved Exception:
              Type = null
 
-ModelAndView:
+* ModelAndView:
         View name = null
              View = com.nexacro.spring.view.NexacroView: name 'nexacroView'
         Attribute = NexacroPlatformData
             value = com.nexacro.xapi.data.PlatformData@5b07730f
            errors = []
 
-FlashMap:
+* FlashMap:
        Attributes = null
 
-MockHttpServletResponse:
+* MockHttpServletResponse:
            Status = 200
     Error message = null
           Headers = [Content-Language:"en", Content-Type:"text/xml; charset=UTF-8"]
@@ -87,6 +87,6 @@ MockHttpServletResponse:
 	</Parameters>
 </Root>
 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+*     Forwarded URL = null
+*    Redirected URL = null
+*           Cookies = []
